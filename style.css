@@ -531,7 +531,7 @@ nav ul .nav-cta:hover { background: var(--gold-400); color: var(--dark-900); }
 /* 2x2 feature cards */
 .about-feat-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 .about-feat-card {
